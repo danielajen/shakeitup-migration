@@ -1,0 +1,358 @@
+{
+ "removed": [
+  [
+   "https://shakeitup.uwo.ca/",
+   "College Support for Students With Disabilities",
+   "http://www.bestcolleges.com/resources/disabled-students/",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "General Health and Wellness Information and links",
+   "http://www.wheelchairnet.org/WCN_Living/health.html",
+   "redirect loop \u2014 page does not load"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Disability Home Accommodation Cost Guide",
+   "http://www.homeadvisor.com/cost/disability-accommodation/",
+   "redirects to an advertising page"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Multiple Sclerosis Information Page",
+   "http://www.ninds.nih.gov/disorders/multiple_sclerosis/multiple_sclerosis.htm",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Information on Multiple Sclerosis",
+   "http://www.healingwell.com/library/ms/",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Know Your Rights: A Legal Guide for People Living with Multiple Sclerosis",
+   "http://www.nationalmssociety.org/NationalMSSociety/media/MSNationalFiles/Brochures/Brochure_KnowYourRights_Aug2014.pdf",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Social Security Disability Benefits Guide",
+   "http://www.thesimpledollar.com/disability-benefits-guide/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Social Security Disability Benefit Calculator",
+   "http://www.thesimpledollar.com/disability-benefits-guide/#social-security-disability-benefit-calculator",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Bedding For People with Disabilities: Complete Guide to Mattresses &amp; Bedding Products",
+   "https://www.sleepcupid.com/bedding-for-people-with-disabilities/",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Sexualhealth.com",
+   "http://www.sexualhealth.com/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Research and Training Center on Disability in Rural Communities",
+   "http://rtc.ruralinstitute.umt.edu/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "International Disabled Self-Defense Association",
+   "http://www.defenseability.com/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Handicapped Scuba Association International",
+   "http://www.hsascuba.com/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Wheelchairnet.org: information on sports and recreation",
+   "http://www.wheelchairnet.org/WCN_Living/recreate.html",
+   "redirect loop \u2014 page does not load"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Information on Sports and Recreation",
+   "http://www.wheelchairnet.org/WCN_Living/recreate.html",
+   "redirect loop \u2014 page does not load"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Adapted Sports and Recreation Program",
+   "http://www.adaptivesportsandrec.org/",
+   "redirects to a \u201cpage not found\u201d page"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Brian Injury Association of Rhode Island Resource Guide",
+   "http://biari.org/resource_guides.html",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Rhode Island Developmental Disabilities Council, Recreation Guide",
+   "https://riddc.org/",
+   "returns 200"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "National Collaborative on Workforce and Disability",
+   "http://www.ncwd-youth.info/",
+   "domain now belongs to an unrelated business"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "EXPAND Program",
+   "https://bouldercolorado.gov/parks-rec/expand-program-for-people-with-disabilities",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "Business Ideas For People With Disabilities",
+   "https://www.commercialcapitaltraining.com/business-resources/business-ideas/business-ideas-people-disabilities/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/about_us/index.html",
+   "Pamela Block, Ph.D.",
+   "https://anthropology.uwo.ca/people/faculty/pamela_block.html",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/speaking_to_medical_professionals.html",
+   "Craig Hospital",
+   "http://www.craighospital.org/SCI/healthAndWellnessInfo.asp",
+   "redirect loop \u2014 page does not load"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/speaking_to_medical_professionals.html",
+   "General Health and Wellness links",
+   "http://www.wheelchairnet.org/WCN_Living/health.html",
+   "redirect loop \u2014 page does not load"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/speaking_to_medical_professionals.html",
+   "Able Data",
+   "http://www.abledata.com/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/speaking_to_medical_professionals.html",
+   "Information on Multiple Sclerosis",
+   "http://www.healingwell.com/library/ms/",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/assistive_technology.html",
+   "Able Data",
+   "http://www.abledata.com/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/assistive_technology.html",
+   "Abledata's listing of Recreation equipment",
+   "http://www.abledata.com/abledata.cfm?pageid=19327&top=12691&deep=2&trail=22",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/assistive_technology.html",
+   "Rehab Institute of Chicago",
+   "http://lifecenter.ric.org/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/nutrition_and_skin_care.html",
+   "Dietary Guidelines for Americans",
+   "http://www.health.gov/dietaryguidelines/dga2000/document/summary/default.htm",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/bowel__bladder_maintenance.html",
+   "Bladder Care and Management",
+   "http://www.spinalinjury.net/html/_bladder_care_and_management.html",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/strength_and_conditioning.html",
+   "NCPAD Strengthening Exercises",
+   "http://www.nchpad.org/374/2096/Strengthening~Exercises",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/self_defense.html",
+   "www.defenseability.com",
+   "http://www.defenseability.com/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/kite_flying.html",
+   "www.dynakite.com",
+   "http://www.dynakite.com/",
+   "returns 200"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/handcycling.html",
+   "www.angletechcycles.com",
+   "http://www.angletechcycles.com/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/handcycling.html",
+   "www.titaniumarts.com",
+   "http://www.titaniumarts.com/",
+   "returns 200"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/kayaking.html",
+   "Adaptive Kayaking",
+   "https://spinalpedia.com/blog/2017/07/adaptive-kayaking-creating-equal-paddle-field/",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/kayaking.html",
+   "Kayaking with SCI BC",
+   "https://sci-bc.ca/event-detail/kayaking-with-sci-bc/",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/scuba.html",
+   "www.hsascuba.com",
+   "http://www.hsascuba.com/",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/waterskiing.html",
+   "Adaptive - USA Adaptive Water Ski &amp; Wake Sports",
+   "http://www.usawaterski.org/pages/divisions/WSDA/main.asp",
+   "returns 301"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/fishing.html",
+   "Paralyzed Veterans of America",
+   "http://www.pva.org/sports/boatingindex.htm",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/the_shake_it_up_team/index.html",
+   "Pamela Block,",
+   "https://anthropology.uwo.ca/people/faculty/pamela_block.html",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/the_shake_it_up_team/index.html",
+   "James H. Rimmer",
+   "https://www.nchpad.org/Staff/1/James~Rimmer",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/the_shake_it_up_team/index.html",
+   "Chris Keys",
+   "https://csh.depaul.edu/faculty-staff/faculty-a-z/Pages/psychology/christopher-keys.aspx",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/the_shake_it_up_team/index.html",
+   "Kristy Hart",
+   "https://www.caredash.com/doctors/kristy-hart-pt-hinesburg-vt",
+   "website no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/the_shake_it_up_team/index.html",
+   "Elizabeth Vanner",
+   "https://med.miami.edu/news/bascom-palmer-scientist-receives-inaugural-grant-for-big-data-research-to-a",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/the_shake_it_up_team/index.html",
+   "Molly Hostetler",
+   "https://shimonkohn.com/attorney/molly-hostetler/",
+   "page no longer exists"
+  ],
+  [
+   "https://shakeitup.uwo.ca/publications/index.html",
+   "http://journalsonline.tandf.co.uk/openurl.asp?genre=article&amp;issn=0963-8288&amp;volume=27&amp;issue=4&amp;spage=185",
+   "http://journalsonline.tandf.co.uk/openurl.asp?genre=article&issn=0963-8288&volume=27&issue=4&spage=185",
+   "website no longer exists"
+  ]
+ ],
+ "fixed": [
+  [
+   "https://shakeitup.uwo.ca/",
+   "http://www.ncpad.org/",
+   "https://www.nchpad.org/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "http://familydoctor.org/familydoctor/en/diseases-conditions/multiple-sclerosis.html",
+   "https://familydoctor.org/condition/multiple-sclerosis/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.alsa.org%2Fals-care%2Fresources%2F%3Freferrer%3Dhttps%3A%2F%2Fwww.google.com%2F&data=02%7C01%7Cjames.pearce%40stonybrookmedicine.edu%7C4a5b523a3997435bedfc08d4c7f4c7a1%7Ceafa1b31b194425db36656c215b7760c%7C0%7C0%7C636353301527837328&sdata=mJpVsG9y7epM4wKSuJ3fwZocTeb5YmfwSAnrRjZn%2B%2FQ%3D&reserved=0",
+   "https://www.als.org/als-care/resources"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "http://www.mdausa.org/",
+   "https://www.mda.org/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "http://www.nwmaf.org/",
+   "https://nwmaf.org/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/",
+   "http://broadfutures.org/",
+   "https://broadfutures.org/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/self_defense.html",
+   "http://www.nwmaf.org/",
+   "https://nwmaf.org/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/sailing.html",
+   "http://www.piersparksailing.org/",
+   "https://piersparksailing.org/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/handcycling.html",
+   "http://www.bikeroute.com/",
+   "https://bikeroute.com/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/waterskiing.html",
+   "http://www.adaptiveaquatics.org/",
+   "https://www.adaptiveaquatics.org/"
+  ],
+  [
+   "https://shakeitup.uwo.ca/program_details/fishing.html",
+   "http://www.fhnbinc.org/",
+   "https://fhnbinc.org/"
+  ]
+ ],
+ "kept": {
+  "http://www.cheapoair.com/guides/travel-resources-disabled-handicapped": "403: site blocks automated checks \u2014 opens in a browser",
+  "http://www.umassmed.edu/cfm": "403: site blocks automated checks \u2014 opens in a browser",
+  "http://www.zocdoc.com/neurologists": "403: site blocks automated checks \u2014 opens in a browser",
+  "https://www.linkedin.com/in/erin-bean-a20336b": "999: site blocks automated checks \u2014 opens in a browser",
+  "https://www.linkedin.com/in/jenny-catrambone-663a6b1a": "999: site blocks automated checks \u2014 opens in a browser",
+  "https://www.linkedin.com/in/paul-choquette-2ab3877": "999: site blocks automated checks \u2014 opens in a browser",
+  "https://www.linkedin.com/school/166689/": "999: site blocks automated checks \u2014 opens in a browser"
+ }
+}
