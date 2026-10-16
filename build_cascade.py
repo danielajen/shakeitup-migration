@@ -60,7 +60,7 @@ program_overview = tidy(assets(
     'training seminars, and afternoons in adaptive physical and recreational activities, all designed and led by people '
     'with disabilities using a peer-mentoring model.</p>'
     '<h2>Training seminars</h2>' + seminars +
-    '<p><a href="/program-details/workshops">Explore the eight training seminars</a></p>'
+    '<p><a href="/program-details/training-seminars">Explore the eight training seminars</a></p>'
     '<h2>Recreational activities</h2>' + rec_html +
     '<p><a href="/program-details/physical-and-recreational-activities">Explore the twelve physical and recreational activities</a></p>'
     '<h2>Participant interviews</h2>'
@@ -166,7 +166,7 @@ pages = [
         {'type': 'Columns', 'html': model}]},
     {'key': 'about', 'folder': 'about-us', 'title': 'About Us', 'sections': [{'type': 'Columns', 'html': about}]},
     {'key': 'program', 'folder': 'program-details', 'title': 'Program Details', 'sections': [{'type': 'Columns', 'html': program_overview}]},
-    {'key': 'workshops', 'parent': 'program-details', 'name': 'workshops', 'title': 'Training Seminars', 'sections': [
+    {'key': 'workshops', 'parent': 'program-details', 'name': 'training-seminars', 'title': 'Training Seminars', 'sections': [
         {'type': 'Columns', 'html': '<p>Training seminars provided educational information, skills training and peer support in independent living and health promotion. Select a seminar to read its objectives, plan, staffing, site criteria and resources.</p>'},
         {'type': 'Accordion', 'items': [activity(s) for s in WORKSHOPS]}]},
     {'key': 'activities', 'parent': 'program-details', 'name': 'physical-and-recreational-activities', 'title': 'Physical and Recreational Activities', 'sections': [
