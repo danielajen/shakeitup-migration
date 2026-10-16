@@ -223,7 +223,7 @@ def final_links(s, drop_items=False):
     s = re.sub(r'(<br/>\s*)+(?=</p>)|<p>\s*(<br/>\s*)*</p>', '', s)
     # the 2005 site's "Download as PDF" links for two papers pointed back at the page itself; no PDF exists
     s = re.sub(r'<ul>\s*<li><a href="/publications/[a-z_]+\.html">.*?</li>\s*</ul>', '', s, flags=re.S)
-    return s.replace('practicioner', 'practitioner')
+    return s.replace('practicioner', 'practitioner').replace('Thaca, NY', 'Ithaca, NY')
 
 for p in pages:
     for sec in p['sections']:
