@@ -183,6 +183,54 @@ pages = [
     {'key': 'team', 'folder': 'the-team', 'title': 'The Shake-It-Up Team', 'sections': [{'type': 'Columns', 'html': team}]},
 ]
 
+# ── Final link pass over every page ─────────────────────────────────────────
+# A 200 is not enough: these return a page, but it is parked, taken over, or a
+# generic homepage that replaced the original document (checked Oct 2026).
+DEAD = ('handcycle.com', 'quadrugby.com', 'ijdcr.ca', 'awsda.org', 'nepva.org', 'ushf.org', 'windride.com',
+        'bikeroute.com', 'spinalcord.uab.edu/show.asp', 'usinsuranceagents.com', 'ase.tufts.edu')
+MOVED = {  # same organization or document, new address
+    'http://depts.washington.edu/rehab/sci/index.html': 'https://sci.washington.edu/',
+    'http://www.merck.com/mmhe/sec18/ch205/ch205a.html': 'https://www.merckmanuals.com/home/skin-disorders/pressure-sores/pressure-sores',
+}
+is_dead = lambda u: any(d in u for d in DEAD)
+
+def final_links(s, drop_items=False):
+    s = re.sub(r'href="https://na01\.safelinks[^"]*"', 'href="https://recreation.ucla.edu/rec-programs/adaptive-recreation"', s)
+    s = re.sub(r'<span>(.*?)</span>', r'\1', s, flags=re.S)  # attribute-less spans split words for screen readers
+    for old, new in MOVED.items():
+        s = s.replace(f'href="{old}"', f'href="{new}"')
+    def li(m):
+        u = re.search(r'href="([^"]+)"', m.group(0))
+        if drop_items and u and is_dead(u.group(1)):
+            removed.append((re.sub('<[^>]+>', '', m.group(1)), u.group(1), 'parked, taken over or gone'))
+            return ''
+        return m.group(0)
+    s = re.sub(r'<li>(.*?)</li>', li, s, flags=re.S)
+    def a(m):
+        if not is_dead(m.group(1)):
+            return m.group(0)
+        text = m.group(2)
+        return '' if re.match(r'(https?://|www\.)', re.sub('<[^>]+>', '', text)) else text
+    # a dead link on a line of its own goes, line and all
+    dead_a = r'<a href="([^"]*(?:%s)[^"]*)"[^>]*>(.*?)</a>' % '|'.join(map(re.escape, DEAD))
+    s = re.sub(dead_a + r'\s*<br/>\s*', '', s, flags=re.S)
+    s = re.sub(r'<br/>\s*' + dead_a + r'(?=\s*</p>)', '', s, flags=re.S)
+    s = re.sub(r'<a href="([^"]+)"[^>]*>(.*?)</a>', a, s, flags=re.S)
+    s = re.sub(r'\s*\b(?:www\.)?(?:bikeroute|handcycle|quadrugby|windride|awsda|nepva|ushf)\.(?:com|org)\b/?', '', s)
+    s = re.sub(r'\s*,(\s*,)+', ',', s).replace(' ,', ',')
+    s = re.sub(r',?\s*(?=</p>)', '', s)          # "Quad Rugby Association, </p>"
+    s = re.sub(r'(?<=\S)  +(?=\S)', ' ', s)
+    s = re.sub(r'(<br/>\s*)+(?=</p>)|<p>\s*(<br/>\s*)*</p>', '', s)
+    return s
+
+for p in pages:
+    for sec in p['sections']:
+        if 'html' in sec:
+            sec['html'] = final_links(sec['html'])
+        for it in sec.get('items', []):
+            it['html'] = final_links(it['html'], drop_items=p['key'] == 'resources')
+        sec.get('items') and sec.update(items=[it for it in sec['items'] if re.search(r'<li>|<p>', it['html'])])
+
 out = ROOT / 'cascade'
 out.mkdir(exist_ok=True)
 (out / 'pages.json').write_text(json.dumps(pages, indent=1, ensure_ascii=False))
