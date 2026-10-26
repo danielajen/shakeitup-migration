@@ -145,7 +145,7 @@ team_raw = [('Pamela Block, PhD', 'Co-Principal Investigator', None),
             ('Elizabeth Vanner, MS', '', None),
             ('Francis Sparadeo, PhD', 'Workshop Facilitator', 'https://www.psychologytoday.com/us/therapists/frank-r-sparadeo-west-warwick-ri/61170')]
 volunteers = [('Lisa Colaco Valentine', 'https://www.bcm.edu/people/view/lisa-valentine-m-d/b16aae27-ffed-11e2-be68-080027880ca6'),
-              ('Belinda Marshall', 'https://www.facebook.com/belinda.r.marshall'), ('Molly Hostetler', None),
+              ('Belinda Marshall', 'https://www.facebook.com/belinda.r.marshall'), ('Molly Hostetler', 'https://disabilityjustice.co/staff/molly-hostetler/'),
               ('Leslie Koren', 'https://www.instagram.com/ljkoren/'), ('Johanna Chang', 'https://www.rchsd.org/doctors/johanna-chang-md/')]
 with ThreadPoolExecutor(8) as ex:
     status.update(dict(ex.map(check, [u for _, _, u in team_raw if u] + [u for _, u in volunteers if u])))
